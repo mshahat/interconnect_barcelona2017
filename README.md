@@ -39,6 +39,12 @@ You can also use a virtual machine to run the labs. Please choose the operating 
  * Make sure to enable hardware virtualisation in BIOS
 * Linux e.g. CentOS or Ubuntu
 
+*OR* 
+
+We're providing a vagrant box to use, which includes this software 
+* kubectl
+* etc.
+
 ## TIBCO software
 
 * BW 5.13 - RV, TRA
