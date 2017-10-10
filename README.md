@@ -44,6 +44,7 @@ You can also use a virtual machine to run the labs. Please choose the operating 
 * BW 5.13 - RV, TRA
 * FTL 5.2.1
 * BWCE 2.3.1
+* TCI Studio 
 
 ## Thirdparty
 
