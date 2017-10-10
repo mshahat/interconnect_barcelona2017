@@ -7,7 +7,7 @@ This guide is to provide a list of prerequisites which need to be installed on y
 ## Accounts
 
 * AWS
- * You will get assigned credentials by your instructor to access AWS to execute the relevant labs
+** You will get assigned credentials by your instructor to access AWS to execute the relevant labs
 
 ```
 1. Download the Private key for AWS account from AWS Web Console and save it on to your workstation.
@@ -28,7 +28,7 @@ $ cp ~/.ssh/aws_machines.pem ~/.ssh/aws_machines
 ```
 
 * Docker Hub
- * Create a Docker Hub account
+** Create a Docker Hub account
 
 ## Operating System 
 You can decide to use macOS, Windows 10 or Linux ( any distro ). 
