@@ -33,7 +33,6 @@ These accounts are needed to run through the labs:
 Download TIBCO installers from https://edelivery.tibco.com 
 
 install the following software on your machine. ( if you prefer to use a vm to leave your machine neat, make yourself at home ! )
-feel free to reuse
 
 * optional - BW5.13 including RV, TRA
 * BWCE 2.3.1
@@ -49,7 +48,7 @@ For macOS users homebrew is a decent option to install thirdparty software https
 
 I'm including the homebrew commands to download some sofware for those on macOS
 
-If you fancy using a *vagrant box* which provides some of these components, [GO HERE]()
+If you fancy using a *vagrant box* which provides some of these components, [GO HERE](option-b---vagrant-box)
 
 * Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
 * Microsoft Powerpoint - to go through the labs instructions
