@@ -158,7 +158,12 @@ For this lab you need to generate a key pair
   3. copy and paste into a file, save as .pub file
  
  #### macOS
-use ssh-keygen to generate your public key 
+use ssh-keygen to generate your public key
+before you do , please make sure to change file permissions 
+  ```console
+  chmod 400 /path/to/your/keypair.pem
+  ```
+  then
 
   ```console
   ssh-keygen -y -f /path/to/your/keypair.pem > /path/to/save/your/public/key/key.pub
