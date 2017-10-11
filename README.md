@@ -18,7 +18,7 @@ These accounts are needed to run through the labs:
   * Note your docker id and password
 
 <!-- insert docker login image -->
-
+![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
 ## Software 
 
 ### TIBCO
