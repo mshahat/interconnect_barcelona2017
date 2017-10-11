@@ -128,8 +128,10 @@ In this lab you should end up with a BWCE app. You need to generate BWCE base im
 
 ### Lab2
 For this lab you need to generate a key pair
-1. Go to https://console.aws.amazon.com/console/home
-2. Use account ID in Lab2 instructions
-3. Use username and password assigned by your instructor --> <username>Tibco123
-4. Once logged in, go to **All Services** -> **Compute** -> **EC2**
-5. On the left bar under **Network & Security** , go to **Key Pairs**
+ 1. Go to https://console.aws.amazon.com/console/home
+ 2. Use account ID in Lab2 instructions
+ 3. Use username and password assigned by your instructor --> <username>Tibco123
+ 4. Once logged in, go to **All Services** -> **Compute** -> **EC2**
+ 5. On the left bar under **Network & Security** , go to **Key Pairs**
+ 6. **Create Key Pair** -> **Key Pair Name**: <username>-keypair
+ 
