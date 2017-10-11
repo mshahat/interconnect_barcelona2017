@@ -10,7 +10,7 @@ You should be able to run the labs if you are running on the following OS choice
 
 * macOS
 * Windows 10
-  * Make sure to enable hardware virtualisation in BIOS
+  * _**Make sure to enable hardware virtualisation in BIOS**_
 * Linux e.g. CentOS or Ubuntu
 
 ## Accounts
