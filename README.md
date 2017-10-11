@@ -115,7 +115,7 @@ To get the vagrant box please do the following
  ```console
  vagrant init onlyfreeaccess/BWCE
  ```
- 3. run this command to start the vagrant box
+ 3. run this command to start the vagrant box ( **You have to be inside the directory e.g. psg_barcelona** )
  ```console
  vagrant up
  ```
