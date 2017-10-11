@@ -44,7 +44,9 @@ For macOS users homebrew is a decent option to install thirdparty software https
 * Docker CE 17.x, Docker for mac, Docker for Windows - https://www.docker.com/community-edition
 * Java 1.8
 * AWS CLI - https://aws.amazon.com/cli/
-```brew install awscli```
+
+```brew install awscli
+```
 
 ## Operating System
 You can decide to use macOS, Windows 10 or Linux ( any distro ). 
