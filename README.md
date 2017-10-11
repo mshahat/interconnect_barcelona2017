@@ -105,6 +105,17 @@ To use vagrant, please install:
   ```console
   vagrant scp /path/to/local.file vagrant-machine-name:/path/to/vagrant/box.file
   ```
+To get the vagrant box please do the following 
+ 1. create a directory, name it for e.g. psg_barcelona
+ 2. cd to the directory, init the vagrant box 
+ ```console
+ vagrant init onlyfreeaccess/BWCE
+ ```
+ 3. run this command 
+ ```console
+ vagrant up
+ ```
+
 
 ---
 ## Labs
