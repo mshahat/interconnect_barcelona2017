@@ -133,5 +133,5 @@ For this lab you need to generate a key pair
  3. Use username and password assigned by your instructor --> "username"Tibco123
  4. Once logged in, go to **All Services** -> **Compute** -> **EC2**
  5. On the left bar under **Network & Security** , go to **Key Pairs**
- 6. **Create Key Pair** -> **Key Pair Name**: "username"-keypair ... This will download a .pem file to your machine
+ 6. **Create Key Pair** -> **Key Pair Name**: "username"-keypair ... This will download a .pem file to your machine which is your private key
  
