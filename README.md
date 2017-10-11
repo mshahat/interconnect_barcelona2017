@@ -18,6 +18,10 @@ These accounts are needed to run through the labs:
   * Note your docker id and password
 
 * TIBCO Cloud Integration
+  * Sign up for trial EMEA - https://eu.account.cloud.tibco.com/signup/tci
+  * Sign up for trial Americas - https://account.cloud.tibco.com/signup/tci
+  * Sign up for trial Australia - https://au.account.cloud.tibco.com/signup/tci
+  * If you have an expired trial - Google Hangout me for the form to request extension
 
 <!-- insert docker login image -->
 ![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
@@ -40,15 +44,23 @@ feel free to reuse
 
 ### Thirdparty
 
-For Linux users use your package manager.
+For Linux users use your package manager for most of these, or follow the links provided below.
 For macOS users homebrew is a decent option to install thirdparty software https://brew.sh/
 
 I'm including the homebrew commands to download some sofware for those on macOS
 
+If you fancy using a *vagrant box* which provides some of these components, [GO HERE]()
+
 * Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
+* Microsoft Powerpoint - to go through the labs instructions
 * Docker CE 17.x, Docker for mac, Docker for Windows - https://www.docker.com/community-edition
-* Java 1.8
-* AWS CLI - install from https://aws.amazon.com/cli/
+* optional - Kitematic - to browse Docker Hub images - https://github.com/docker/kitematic/releases
+* Java 1.8 or else
+
+#### Option A - local installs
+install the following to your machine 
+
+* AWS cli - install from https://aws.amazon.com/cli/
   ```console
   brew update && brew install awscli
   ```
@@ -60,6 +72,12 @@ I'm including the homebrew commands to download some sofware for those on macOS
   ```console
   brew update && brew install kops
   ```
+#### Option B - Vagrant box
+use vagrant box to have the following preinstalled
+
+* AWS cli
+* kubectl
+* kops
 
 ## Operating System
 You can decide to use macOS, Windows 10 or Linux ( any distro ). 
@@ -75,13 +93,6 @@ You can also use a virtual machine to run the labs. Please choose the operating 
 We're providing a vagrant box to use, which includes this software 
 * kubectl
 * etc.
-
-## TIBCO software
-
-* Optional - BW 5.13 - RV, TRA
-* FTL 5.2.1
-* BWCE 2.3.1
-* TCI Studio
 
 ## Thirdparty
 
