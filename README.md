@@ -116,5 +116,9 @@ In this lab you should end up with a BWCE app. You need to generate BWCE base im
   ```console
   docker pull mshahat/bwce:2.3.1.ems
   ```
+* BWCE 2.3.1 app 
+  ```console
+  docker pull mshahat/bw5tobwce:1.0
+  ```
 
 ### Lab2
