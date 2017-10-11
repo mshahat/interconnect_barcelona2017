@@ -5,6 +5,14 @@ As part of the event some deep dive sessions are planned, please go through this
 
 Software you need to install or accounts you need to have to be able to carry on the labs during the workshops.
 
+## Operating System
+You should be able to run the labs if you are running on the following OS choices
+
+* macOS
+* Windows 10
+  * Make sure to enable hardware virtualisation in BIOS
+* Linux e.g. CentOS or Ubuntu
+
 ## Accounts
 
 These accounts are needed to run through the labs:
@@ -48,7 +56,7 @@ For macOS users homebrew is a decent option to install thirdparty software https
 
 I'm including the homebrew commands to download some sofware for those on macOS
 
-If you fancy using a *vagrant box* which provides some of these components, [GO HERE](https://github.com/mshahat/interconnect_barcelona2017#option-b---vagrant-box)
+If you fancy using a **vagrant box** which provides some of these components, [GO HERE](https://github.com/mshahat/interconnect_barcelona2017#option-b---vagrant-box)
 
 * Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
 * Microsoft Powerpoint - to go through the labs instructions
@@ -77,6 +85,17 @@ use vagrant box to have the following preinstalled
 * AWS cli
 * kubectl
 * kops
+
+To have vagrant running, please install 
+
+* Virtualbox - https://www.virtualbox.org/wiki/Downloads
+  ```console
+  brew cask install virtualbox
+  ```
+* Vagrant - https://www.vagrantup.com/downloads.html
+  ```console
+  brew cask install vagrant
+  ```
 
 ## Operating System
 You can decide to use macOS, Windows 10 or Linux ( any distro ). 
