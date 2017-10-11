@@ -39,6 +39,7 @@ feel free to reuse
 
 For Linux users use your package manager.
 For macOS users homebrew is a decent option to install thirdparty software https://brew.sh/
+
 I'm including the homebrew commands to download some sofware for those on macOS
 
 * Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
