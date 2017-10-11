@@ -63,9 +63,11 @@ If you fancy using a **vagrant box** which provides some of these components, [G
 * Docker CE 17.x, Docker for mac, Docker for Windows - https://www.docker.com/community-edition
 * optional - Kitematic - to browse Docker Hub images - https://github.com/docker/kitematic/releases
 * Java 1.8 or else
+* Putty - for windows users
+* Winscp - for windows users
 
 #### Option A - local installs
-install the following to your machine 
+install the following to your machine
 
 * AWS cli - install from https://aws.amazon.com/cli/
   ```console
@@ -86,7 +88,7 @@ use vagrant box to have the following preinstalled
 * kubectl
 * kops
 
-To have vagrant running, please install 
+To use vagrant, please install:
 
 * Virtualbox - https://www.virtualbox.org/wiki/Downloads
   ```console
@@ -96,33 +98,3 @@ To have vagrant running, please install
   ```console
   brew cask install vagrant
   ```
-
-## Operating System
-You can decide to use macOS, Windows 10 or Linux ( any distro ). 
-You can also use a virtual machine to run the labs. Please choose the operating system of choice 
-
-* macOS 
-* Windows 10
- * Make sure to enable hardware virtualisation in BIOS
-* Linux e.g. CentOS or Ubuntu
-
-*OR* 
-
-We're providing a vagrant box to use, which includes this software 
-* kubectl
-* etc.
-
-## Thirdparty
-
-* Microsoft Office - will need to go through some slides for the labs instructions
-* Text editor of choice - e.g. Microsoft VS Code, Notepad++
-* Docker CE - Docker for macOS, Docker for Widnows, Docker on linux using yum or apt-get
-* Java 1.8
-* golang
-
-* AWS CLI
-* Kubectl
-* Kobs
-* Oracle VirtualBox
-* Vagrant
-* Putty - for Windows users
