@@ -105,11 +105,10 @@ To use vagrant, please install:
   ```console
   vagrant scp /path/to/local.file vagrant-machine-name:/path/to/vagrant/box.file
   ```
-  
-  
+
 ---
 ## Labs
-The following activiites need to take place to be able to run the labs 
+The following activites need to take place to be able to run the labs 
 
 ### Lab1
 In this lab you should end up with a BWCE app. You need to generate BWCE base image, as well as include ems libraries. You can use the following images if you need to
