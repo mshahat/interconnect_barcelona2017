@@ -134,4 +134,17 @@ For this lab you need to generate a key pair
  4. Once logged in, go to **All Services** -> **Compute** -> **EC2**
  5. On the left bar under **Network & Security** , go to **Key Pairs**
  6. **Create Key Pair** -> **Key Pair Name**: "username"-keypair ... This will download a .pem file to your machine which is your private key
+ 7. Use this to generate a public key 
  
+ #### Windows
+ Use Putty key generator to generate your public key
+  1. Load private key 
+  2. click on Generate
+  3. copy and paste into a file, save as .pub file
+ 
+ #### macOS
+use ssh-keygen to generate your public key 
+
+  ```console
+  ssh-keygen -y -f /path/to/your/keypair.pem > /path/to/save/your/public/key/key.pub
+  ```
