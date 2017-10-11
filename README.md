@@ -24,6 +24,10 @@ These accounts are needed to run through the labs:
 * Docker ID for Docker Hub
   * Create a Docker Hub account if you don't have one https://hub.docker.com/
   * Note your docker id and password
+  * After you get Docker installed, log in to your Docker Hub
+
+<!-- insert docker login image -->
+![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
 
 * TIBCO Cloud Integration
   * Sign up for trial EMEA - https://eu.account.cloud.tibco.com/signup/tci
@@ -31,8 +35,7 @@ These accounts are needed to run through the labs:
   * Sign up for trial Australia - https://au.account.cloud.tibco.com/signup/tci
   * If you have an expired trial - Google Hangout me for the form to request extension
 
-<!-- insert docker login image -->
-![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
+
 
 ## Software
 
