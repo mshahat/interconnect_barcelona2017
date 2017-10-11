@@ -48,7 +48,7 @@ For macOS users homebrew is a decent option to install thirdparty software https
 
 I'm including the homebrew commands to download some sofware for those on macOS
 
-If you fancy using a *vagrant box* which provides some of these components, [GO HERE](Option B - Vagrant box)
+If you fancy using a *vagrant box* which provides some of these components, [GO HERE][Option B - Vagrant box]
 
 * Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
 * Microsoft Powerpoint - to go through the labs instructions
