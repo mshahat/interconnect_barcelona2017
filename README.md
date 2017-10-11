@@ -108,7 +108,7 @@ To use vagrant, please install:
   ```console
   brew cask install vagrant-manager
   ```
-![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
+![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2022.47.18.png)
 To get the vagrant box please do the following 
  1. create a directory, name it for e.g. psg_barcelona
  2. cd to the directory, init the vagrant box 
