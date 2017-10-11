@@ -17,6 +17,8 @@ These accounts are needed to run through the labs:
   * Create a Docker Hub account if you don't have one https://hub.docker.com/
   * Note your docker id and password
 
+* TIBCO Cloud Integration
+
 <!-- insert docker login image -->
 ![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
 
@@ -32,6 +34,7 @@ feel free to reuse
 * optional - BW5.13 including RV, TRA
 * BWCE 2.3.1
 * TCI Studio 1.0.5
+* TCI CLI - follow install instructions https://integration.cloud.tibco.com/docs/getstarted/installation/installing-cli.html
 * FTL 5.2.1
 * optional - EMS 8.4 ( this is needed for jms libs, we're providing the libs, so no need to install if you don't need to )
 
@@ -47,15 +50,15 @@ I'm including the homebrew commands to download some sofware for those on macOS
 * Java 1.8
 * AWS CLI - install from https://aws.amazon.com/cli/
   ```console
-  brew update && brew install kops
+  brew update && brew install awscli
   ```
 * kubectl - kubernetes cli - https://kubernetes.io/docs/tasks/tools/install-kubectl/
   ```console
-  brew install kubectl
+  brew update && brew install kubectl
   ```
-* kops - kubernetes operations 
+* kops - kubernetes operations
   ```console
-  brew install kops
+  brew update && brew install kops
   ```
 
 ## Operating System
