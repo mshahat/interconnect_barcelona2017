@@ -19,18 +19,34 @@ These accounts are needed to run through the labs:
 
 <!-- insert docker login image -->
 ![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
-## Software 
+
+## Software
 
 ### TIBCO
 
-download TIBCO installers from https://edelivery.tibco.com 
+Download TIBCO installers from https://edelivery.tibco.com 
 
-* Optional - BW5.13 including RV, TRA
+install the following software on your machine. ( if you prefer to use a vm to leave your machine neat, make yourself at home ! )
+feel free to reuse
+
+* optional - BW5.13 including RV, TRA
 * BWCE 2.3.1
 * TCI Studio 1.0.5
 * FTL 5.2.1
+* optional - EMS 8.4 ( this is needed for jms libs, we're providing the libs, so no need to install if you don't need to )
 
-## Operating System 
+### Thirdparty
+
+For Linux users use your package manager.
+For macOS users homebrew is a decent option to install thirdparty software https://brew.sh/
+
+* Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
+* Docker CE 17.x, Docker for mac, Docker for Windows - https://www.docker.com/community-edition
+* Java 1.8
+* AWS CLI - https://aws.amazon.com/cli/
+```brew install awscli```
+
+## Operating System
 You can decide to use macOS, Windows 10 or Linux ( any distro ). 
 You can also use a virtual machine to run the labs. Please choose the operating system of choice 
 
@@ -50,7 +66,7 @@ We're providing a vagrant box to use, which includes this software
 * Optional - BW 5.13 - RV, TRA
 * FTL 5.2.1
 * BWCE 2.3.1
-* TCI Studio 
+* TCI Studio
 
 ## Thirdparty
 
