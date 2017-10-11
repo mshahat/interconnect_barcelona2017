@@ -106,7 +106,15 @@ To use vagrant, please install:
 The following activiites need to take place to be able to run the labs 
 
 ### Lab1
+In this lab you should end up with a BWCE app. You need to generate BWCE base image, as well as include ems libraries. You can use the following images if you need to
 
-
+* BWCE 2.3.1 base image
+  ```console
+  docker pull mshahat/bwce:2.3.1
+  ```
+* BWCE 2.3.1 base image + EMS libs
+  ```console
+  docker pull mshahat/bwce:2.3.1.ems
+  ```
 
 ### Lab2
