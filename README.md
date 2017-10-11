@@ -101,3 +101,12 @@ To use vagrant, please install:
   ```console
   brew cask install vagrant
   ```
+---
+## Labs
+The following activiites need to take place to be able to run the labs 
+
+### Lab1
+
+
+
+### Lab2
