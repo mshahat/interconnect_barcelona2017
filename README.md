@@ -39,13 +39,23 @@ feel free to reuse
 
 For Linux users use your package manager.
 For macOS users homebrew is a decent option to install thirdparty software https://brew.sh/
+I'm including the homebrew commands to download some sofware for those on macOS
 
 * Text Editor, I use VS Code. TextMate, Notepad++ ...etc.
 * Docker CE 17.x, Docker for mac, Docker for Windows - https://www.docker.com/community-edition
 * Java 1.8
-* AWS CLI - https://aws.amazon.com/cli/
-
-```brew install awscli```
+* AWS CLI - install from https://aws.amazon.com/cli/
+  ```console
+  brew update && brew install kops
+  ```
+* kubectl - kubernetes cli - https://kubernetes.io/docs/tasks/tools/install-kubectl/
+  ```console
+  brew install kubectl
+  ```
+* kops - kubernetes operations 
+  ```console
+  brew install kops
+  ```
 
 ## Operating System
 You can decide to use macOS, Windows 10 or Linux ( any distro ). 
