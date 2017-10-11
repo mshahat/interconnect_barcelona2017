@@ -101,6 +101,12 @@ To use vagrant, please install:
   ```console
   brew cask install vagrant
   ```
+  * if you're using vagrant, you might find it useful to copy stuff from your local machine to vagrant box
+  ```console
+  vagrant scp /path/to/local.file vagrant-machine-name:/path/to/vagrant/box.file
+  ```
+  
+  
 ---
 ## Labs
 The following activiites need to take place to be able to run the labs 
