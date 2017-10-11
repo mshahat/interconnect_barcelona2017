@@ -26,7 +26,6 @@ These accounts are needed to run through the labs:
   * Note your docker id and password
   * After you get Docker installed, log in to your Docker Hub
 
-<!-- insert docker login image -->
 ![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
 
 * TIBCO Cloud Integration
@@ -105,6 +104,22 @@ To use vagrant, please install:
   ```console
   vagrant scp /path/to/local.file vagrant-machine-name:/path/to/vagrant/box.file
   ```
+* optional - a nice vagrant manager UI on macOS
+  ```console
+  brew cask install vagrant-manager
+  ```
+![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
+To get the vagrant box please do the following 
+ 1. create a directory, name it for e.g. psg_barcelona
+ 2. cd to the directory, init the vagrant box 
+ ```console
+ vagrant init onlyfreeaccess/BWCE
+ ```
+ 3. run this command to start the vagrant box
+ ```console
+ vagrant up
+ ```
+
 
 ---
 ## Labs
