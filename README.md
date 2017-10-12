@@ -92,7 +92,7 @@ use vagrant box to have the following preinstalled
 
 To use vagrant, please install:
 
-* Virtualbox - https://www.virtualbox.org/wiki/Downloads
+* Virtualbox - https://www.virtualbox.org/wiki/Downloads (5.1.28)
   ```console
   brew cask install virtualbox
   ```
@@ -115,7 +115,13 @@ To get the vagrant box please do the following
  ```console
  vagrant init onlyfreeaccess/BWCE
  ```
- 3. run this command to start the vagrant box ( **You have to be inside the directory e.g. psg_barcelona** )
+ 
+ 3. Setup provider env var (on UNIX-like systems use):
+  ```console
+  export VAGRANT_DEFAULT_PROVIDER=virtualbox
+  ```
+
+ 4. run this command to start the vagrant box ( **You have to be inside the directory e.g. psg_barcelona** )
  ```console
  vagrant up
  ```
@@ -168,3 +174,18 @@ before you do , please make sure to change file permissions
   ```console
   ssh-keygen -y -f /path/to/your/keypair.pem > /path/to/save/your/public/key/key.pub
   ```
+  
+  8. Copy AWS private and public key files to the vagrant box. The easiest way to transfer files from the host to the VM is to just put them in the same directory as the Vagrantfile (psg_brcelona) - that directory is automatically mounted under /vagrant in the VM so you can copy or use them directly from the VM."
+ 
+ 9. SSH into the vagrant box
+ ```console
+  vagrant ssh
+  ```
+ 10. Copy Public and Private Keys from /vagrant to ~/.ssh on vagrant box
+ 
+ 11. Logout
+ ```console
+  vagrant logout
+  ```
+
+ 
