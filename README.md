@@ -175,4 +175,17 @@ before you do , please make sure to change file permissions
   ssh-keygen -y -f /path/to/your/keypair.pem > /path/to/save/your/public/key/key.pub
   ```
   
+  8. Copy AWS private and public key files to the vagrant box. The easiest way to transfer files from the host to the VM is to just put them in the same directory as the Vagrantfile (psg_brcelona) - that directory is automatically mounted under /vagrant in the VM so you can copy or use them directly from the VM."
+ 
+ 9. SSH into the vagrant box
+ ```console
+  vagrant ssh
+  ```
+ 10. Copy Public and Private Keys from /vagrant to ~/.ssh on vagrant box
+ 
+ 11. Logout
+ ```console
+  vagrant logout
+  ```
+
  
