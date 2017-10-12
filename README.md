@@ -108,14 +108,14 @@ To use vagrant, please install:
   ```console
   brew cask install vagrant-manager
   ```
-![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2018.53.55.png)
+![Screenshot](https://github.com/mshahat/interconnect_barcelona2017/blob/master/graphics/Screen%20Shot%202017-10-11%20at%2022.47.18.png)
 To get the vagrant box please do the following 
  1. create a directory, name it for e.g. psg_barcelona
  2. cd to the directory, init the vagrant box 
  ```console
  vagrant init onlyfreeaccess/BWCE
  ```
- 3. run this command to start the vagrant box
+ 3. run this command to start the vagrant box ( **You have to be inside the directory e.g. psg_barcelona** )
  ```console
  vagrant up
  ```
@@ -158,7 +158,12 @@ For this lab you need to generate a key pair
   3. copy and paste into a file, save as .pub file
  
  #### macOS
-use ssh-keygen to generate your public key 
+use ssh-keygen to generate your public key
+before you do , please make sure to change file permissions 
+  ```console
+  chmod 400 /path/to/your/keypair.pem
+  ```
+  then
 
   ```console
   ssh-keygen -y -f /path/to/your/keypair.pem > /path/to/save/your/public/key/key.pub
