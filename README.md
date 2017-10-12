@@ -92,7 +92,7 @@ use vagrant box to have the following preinstalled
 
 To use vagrant, please install:
 
-* Virtualbox - https://www.virtualbox.org/wiki/Downloads
+* Virtualbox - https://www.virtualbox.org/wiki/Downloads (5.1.28)
   ```console
   brew cask install virtualbox
   ```
@@ -115,7 +115,13 @@ To get the vagrant box please do the following
  ```console
  vagrant init onlyfreeaccess/BWCE
  ```
- 3. run this command to start the vagrant box ( **You have to be inside the directory e.g. psg_barcelona** )
+ 
+ 3. Setup provider env var (on UNIX-like systems use):
+  ```console
+  export VAGRANT_DEFAULT_PROVIDER=virtualbox
+  ```
+
+ 4. run this command to start the vagrant box ( **You have to be inside the directory e.g. psg_barcelona** )
  ```console
  vagrant up
  ```
@@ -168,3 +174,5 @@ before you do , please make sure to change file permissions
   ```console
   ssh-keygen -y -f /path/to/your/keypair.pem > /path/to/save/your/public/key/key.pub
   ```
+  
+ 
